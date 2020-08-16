@@ -99,7 +99,7 @@ d3.csv("meteorites.csv", function(data) {
   
       // Add X axis --> it is a date format
       var x = d3.scaleLinear()
-        .domain([1700, 2013])
+        .domain([1700, 2015])
         .range([ 0, width ]);
       svg.append("g")
         .attr("transform", "translate(0," + height + ")")
